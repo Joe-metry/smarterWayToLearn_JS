@@ -10,8 +10,8 @@ When a match is found, display an alert with the number (it should be your first
 
 var numbers = [10, 11];
 for (var j = 0; j < numbers.length; j++) {
-  if (j === j ) {
-    alert(j);
+  if (numbers[j] === numbers[j] ) {
+    alert(numbers[j]);
    break
   }
 }
